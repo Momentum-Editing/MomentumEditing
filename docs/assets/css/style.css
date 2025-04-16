@@ -45,24 +45,15 @@ body {
   margin: 30px auto 0 auto;
 }
 
-/* Video player interactivity */
 .video-player {
-  width: 80vw;
-  max-width: 1200px;
-  border: 2px solid #444;
-  border-radius: 12px;
-  background: #222;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
-  transition: border-color 0.3s, box-shadow 0.3s;
-  outline: none;
+  outline: none; /* Remove default outline */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth glowing effect transition */
 }
 
+/* Add glowing effect */
 .video-player:hover,
 .video-player:focus {
-  border-color: #fff;
-  box-shadow: 0 4px 32px rgba(255,255,255,0.15);
-  outline: 2px solid #fff;
-  outline-offset: 4px;
+  box-shadow: 0 0 15px 8px rgba(0, 150, 255, 0.8); /* Glowing blue effect */
 }
 
 /* Footer */
