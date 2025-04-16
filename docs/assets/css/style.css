@@ -34,10 +34,7 @@ body {
 /* Glow on hover and focus */
 .header h1:hover,
 .header h1:focus {
-  color: #e0e0e0;
-  text-shadow: 0 0 16px #fff, 0 0 32px #fff;
-  outline: 1px solid #fff;
-  outline-offset: 6px;
+  box-shadow: 0 0 15px 8px rgba(255, 255, 255, 0.9); /* Glow effect on hover or focus */
 }
 
 /* Video container */
