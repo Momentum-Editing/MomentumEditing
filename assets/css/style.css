@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #232428; /* Even darker grey for a modern look */
+  color: #fff;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 40px; /* Space for footer */
+}
+
+/* Header with glow */
+.header {
+  text-align: center;
+  background: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.18) 0%, rgba(35,36,40,1) 70%);
+  color: #fff;
+  padding: 60px 20px 40px 20px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 0.3s;
+}
+
+/* Header interactivity */
+.header h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  transition: text-shadow 0.3s, color 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Glow on hover and focus */
+.header h1:hover,
+.header h1:focus {
+  color: #e0e0e0;
+  text-shadow: 0 0 16px #fff, 0 0 32px #fff;
+  outline: 2px solid #fff;
+  outline-offset: 6px;
+}
+
+/* Video container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0 auto;
+}
+
+/* Video player interactivity */
+.video-player {
+  width: 80vw;
+  max-width: 1200px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  background: #222;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+.video-player:hover,
+.video-player:focus {
+  border-color: #fff;
+  box-shadow: 0 4px 32px rgba(255,255,255,0.15);
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #18191b;
+  color: #fff;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  letter-spacing: 1px;
+}
