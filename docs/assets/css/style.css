@@ -50,10 +50,10 @@ body {
   transition: box-shadow 0.3s ease-in-out; /* Smooth glowing effect transition */
 }
 
-/* Add glowing effect */
+/* Add glowing white effect */
 .video-player:hover,
 .video-player:focus {
-  box-shadow: 0 0 15px 8px rgba(0, 150, 255, 0.8); /* Glowing blue effect */
+  box-shadow: 0 0 15px 8px rgba(255, 255, 255, 0.8); /* Glowing white effect */
 }
 
 /* Footer */
