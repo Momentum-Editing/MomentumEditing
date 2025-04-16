@@ -36,7 +36,7 @@ body {
 .header h1:focus {
   color: #e0e0e0;
   text-shadow: 0 0 16px #fff, 0 0 32px #fff;
-  outline: 2px solid #fff;
+  outline: 1px solid #fff;
   outline-offset: 6px;
 }
 
