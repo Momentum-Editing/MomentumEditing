@@ -36,9 +36,9 @@ body {
 /* Add glowing effect on hover or focus */
 .header h1:hover,
 .header h1:focus {
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
-               0 0 10px rgba(255, 255, 255, 0.8), 
-               0 0 15px rgba(255, 255, 255, 0.8); /* White glowing effect */
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.8), 
+               0 0 7px rgba(255, 255, 255, 0.8), 
+               0 0 12px rgba(255, 255, 255, 0.8); /* White glowing effect */
 }
 .video-container {
   display: flex;
