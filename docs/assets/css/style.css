@@ -29,7 +29,7 @@ body {
   background: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.18) 0%, rgba(35,36,40,1) 70%);
   color: #fff;
   padding: 60px 20px 40px 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   z-index: 1;
   transition: box-shadow 0.3s ease-in-out;
@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  margin: 30px auto; /* Center the container itself */
+  margin: 20px auto; /* Center the container itself */
   transform: none; /* Remove the right shift */
   height: 100vh; /* Ensure the container takes up the full viewport height */
 }
