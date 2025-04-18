@@ -42,12 +42,12 @@ body {
 }
 .video-container {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Keep vertical alignment centered */
-  margin: 30px auto 0 auto;
-  transform: translateX(35%); /* Shift the container slightly to the right */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 30px auto; /* Center the container itself */
+  transform: none; /* Remove the right shift */
+  height: 100vh; /* Ensure the container takes up the full viewport height */
 }
-
 .video-player {
   outline: none; /* Remove default outline */
   transition: box-shadow 0.3s ease-in-out; /* Smooth glowing effect transition */
