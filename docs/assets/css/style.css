@@ -8,6 +8,19 @@ body {
   padding-bottom: 40px; /* Space for footer */
 }
 
+/* Style for the title link */
+.website-title {
+  color: white; /* Makes the text white */
+  text-decoration: none; /* Removes the underline */
+}
+
+/* Optional: Add a hover effect */
+.website-title:hover {
+  text-decoration: underline; /* Underline only on hover, if desired */
+  color: #f0f0f0; /* Slightly lighter color on hover */
+}
+
+
 /* Header with glow */
 .header {
   text-align: center;
