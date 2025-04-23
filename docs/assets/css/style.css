@@ -62,20 +62,12 @@ body {
   margin: 20px auto; /* Center the container itself */
   transform: none; /* Remove the right shift */
   height: 100vh; /* Ensure the container takes up the full viewport height */
-}
-.video-player {
-  outline: none; /* Remove default outline */
-  transition: box-shadow 0.3s ease-in-out; /* Smooth glowing effect transition */
-  max-width: 100vw;
-  max-height: 80vh;
+  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
 }
 
-/* Add glowing white effect */
-.video-player:hover,
-.video-player:focus {
-  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.8); /* Glowing white effect */
+.video-container:hover {
+  transform: scale(1.05); /* Slightly enlarge the container */
 }
-
 /* Footer */
 .footer {
   text-align: center;
