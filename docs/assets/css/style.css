@@ -98,6 +98,11 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* Shrink all videos */
+.video-slot video {
+  width: 300px; /* Adjust to your desired width */
+  height: auto; /* Maintain aspect ratio */
+}
 .video-slot:hover {
   transform: scale(1.05); /* Slightly enlarge the video slot */
   transition: transform 0.3s ease-in-out;
