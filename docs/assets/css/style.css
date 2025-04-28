@@ -22,7 +22,6 @@ body {
   color: #f0f0f0; /* Slightly lighter color on hover */
 }
 
-
 /* Header with glow */
 .header {
   text-align: center;
@@ -55,19 +54,55 @@ body {
                0 0 7px rgba(255, 255, 255, 0.8), 
                0 0 12px rgba(255, 255, 255, 0.8); /* White glowing effect */
 }
-.video-container {
+
+/* Center the content */
+.container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  margin: 20px auto; /* Center the container itself */
-  transform: none; /* Remove the right shift */
-  height: 100vh; /* Ensure the container takes up the full viewport height */
-  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.video-container:hover {
-  transform: scale(1.05); /* Slightly enlarge the container */
+/* Style the title */
+.title {
+  font-size: 2rem;
+  margin-top: 10px; /* Adjust this to move the title higher */
 }
+
+/* Define the columns */
+.video-columns {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between columns */
+  margin-top: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between video slots */
+}
+
+/* Style the video slots */
+.video-slot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: #2a2b2f; /* Darker background for consistency */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.video-slot:hover {
+  transform: scale(1.05); /* Slightly enlarge the video slot */
+  transition: transform 0.3s ease-in-out;
+}
+
 /* Footer */
 .footer {
   text-align: center;
