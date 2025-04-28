@@ -8,20 +8,50 @@
 </head>
 <body>
   <!-- Header with glow and interactivity -->
-<header class="header">
-  <h1><a href="index.html" class="website-title">Momentum Editing</a></h1>
-</header>
+  <header class="header">
+    <h1><a href="index.html" class="website-title">Momentum Editing</a></h1>
+  </header>
 
-  <!-- Video Section -->
-<video class="video-player" controls tabindex="0">
-  <source src="" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+  <div class="container">
+    <div class="video-columns">
+      <!-- First Column -->
+      <div class="column">
+        <div class="video-slot">
+          <video class="video-player" controls tabindex="0">
+            <source src="video1.mp4" type="video/mp4">
+            Video 1: Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-slot">
+          <video class="video-player" controls tabindex="0">
+            <source src="video2.mp4" type="video/mp4">
+            Video 2: Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <!-- Second Column -->
+      <div class="column">
+        <div class="video-slot">
+          <video class="video-player" controls tabindex="0">
+            <source src="video3.mp4" type="video/mp4">
+            Video 3: Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-slot">
+          <video class="video-player" controls tabindex="0">
+            <source src="video4.mp4" type="video/mp4">
+            Video 4: Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer at the very bottom -->
   <footer class="footer">
-    <p>&copy; 2025 Momentum Editing</p>
+    <div>
+      <p>&copy; 2025 Momentum Editing</p>
+    </div>
   </footer>
 </body>
 </html>
