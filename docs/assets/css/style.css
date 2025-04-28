@@ -81,20 +81,21 @@ body {
 .column {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Space between video slots */
+  gap: 30px; /* Space between video slots */
 }
 
 /* Style the video slots */
 .video-slot {
   border: 1px solid #ccc;
   padding: 10px;
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 250px;
   background-color: #2a2b2f; /* Darker background for consistency */
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px; /* Rounded corners */
+  border-radius: 12px; /* Adjust the value for more or less rounding */
+  overflow: hidden; /* Ensures the content stays within the rounded edges */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
