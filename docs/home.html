@@ -11,7 +11,19 @@
   <header class="header">
     <h1><a href="index.html" class="website-title">Momentum Editing</a></h1>
   </header>
+    <script>
+        const videos = document.querySelectorAll('.video-slot video');
 
+        videos.forEach(video => {
+            video.addEventListener('mouseenter', () => {
+                video.setAttribute('controls', 'controls');
+            });
+
+            video.addEventListener('mouseleave', () => {
+                video.removeAttribute('controls');
+            });
+        });
+    </script>
   <div class="container">
     <div class="video-columns">
       <!-- First Column -->
