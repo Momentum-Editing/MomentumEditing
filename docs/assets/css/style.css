@@ -22,6 +22,15 @@ body {
   color: #f0f0f0; /* Slightly lighter color on hover */
 }
 
+.link-to-index {
+    color: #87CEEB; /* Light blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+.link-to-index:hover {
+    color: #ADD8E6; /* Even lighter blue on hover */
+}
+
 /* Header with glow */
 .header {
   text-align: center;
