@@ -114,7 +114,7 @@ body {
 }
 .video-slot:hover {
   transform: scale(1.05); /* Slightly enlarge the video slot */
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 /* Footer */
