@@ -34,7 +34,7 @@ body {
 /* Header with glow */
 .header {
   text-align: center;
-  background: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.18) 0%, rgba(35,36,40,1) 70%);
+  background: radial-gradient(circle at 50% 0%, rgba(173, 216, 230, 0.18) 0%, rgba(35,36,40,1) 70%);
   color: #fff;
   padding: 60px 20px 40px 20px;
   margin-top: 20px;
