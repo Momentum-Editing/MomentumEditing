@@ -95,7 +95,7 @@ body {
 
 /* Style the video slots */
 .video-slot {
-  padding: 10px;
+  padding: 0px;
   width: 300px;
   height: 250px;
   background-color: #2a2b2f; /* Darker background for consistency */
